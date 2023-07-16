@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:games_play/widgets/product/product_card_widget.dart';
+import 'package:games_play/components/product/product_card_widget.dart';
 
 class ProductList extends StatelessWidget {
   const ProductList({super.key, required this.scrollDerection});

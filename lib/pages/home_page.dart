@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'package:games_play/card/list_widget1.dart';
-import 'package:games_play/widgets/category/category_list_widget.dart';
-import 'package:games_play/widgets/product/product_list_widget.dart';
+import 'package:games_play/components/card/list_widget1.dart';
+import 'package:games_play/components/category/category_list_widget.dart';
+import 'package:games_play/components/product/product_list_widget.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -19,9 +19,8 @@ class HomePage extends StatelessWidget {
         toolbarHeight: double.tryParse('165'),
         title: Container(
           decoration: const BoxDecoration(
-              borderRadius: BorderRadius.vertical(bottom: Radius.circular(10)),
-
-              ),
+            borderRadius: BorderRadius.vertical(bottom: Radius.circular(10)),
+          ),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -53,7 +52,7 @@ class HomePage extends StatelessWidget {
       body: Container(
         padding: const EdgeInsets.all(10),
         decoration: const BoxDecoration(
-          boxShadow:  [
+          boxShadow: [
             BoxShadow(
                 color: Colors.black,
                 offset: Offset(1, 2.0),
@@ -65,6 +64,7 @@ class HomePage extends StatelessWidget {
             topRight: Radius.circular(30),
             topLeft: Radius.circular(30),
           ),
+          
         ),
         child: ListView(
           // crossAxisAlignment: CrossAxisAlignment.stretch,

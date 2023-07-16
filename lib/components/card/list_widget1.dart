@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:games_play/card/card_widget.dart';
+import 'package:games_play/components/card/card_widget.dart';
 
 class Listcard extends StatelessWidget {
   const Listcard({super.key, required this.scrollDerection});

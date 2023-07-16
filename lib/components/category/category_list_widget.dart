@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:games_play/widgets/category/category_item_widget.dart';
+import 'package:games_play/components/category/category_item_widget.dart';
 
 class CategoryList extends StatelessWidget {
   const CategoryList({super.key});
